@@ -1,26 +1,55 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<title>Google</title>
 		<link type="text/css" rel="stylesheet" href="style.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
+
 	<body>
-		<div id="google-logo">
-		<center>
-			<img src="google.png"/>
-		</center>
+		<div id="top-bar">
+			<ul>
+				<li style="float:right"><a href=""><div id="bell-logo"><i class="fa fa-bell" aria-hidden="true"></i></div></a></li>
+				<li style="float:right"><a href=""><i class="fa fa-th" aria-hidden="true"></i></a></li>
+				<li style="float:right"><a href="">Images</a></li>
+				<li style="float:right"><a href="">Gmail</a></li>
+			</ul>
 		</div>
+
+		<div id="bottom-bar">
+			<ul>
+				<li style="float:right"><a href="">Settings</a></li>
+				<li style="float:right"><a href="">Terms</a></li>
+				<li style="float:right"><a href="">Privacy</a></li>
+				<li><a href="">Advertising</a></li>
+				<li><a href="">Business</a></li>
+				<li><a href="">About</a></li>
+			</ul>
+		</div>
+
+		<div id="google-logo">
+			<center>
+			<img src="google.png"/>
+			</center>
+		</div>
+
 		<div id="search-area">
-		<center>
+			<center>
 			<form>
 				<div id="search-bar">
 					<input tpye="text" name="search-terms" id="search-terms">
-					<div id="voice-search">
-					</div>
+					<a href=""><div id="voice-search"></div></a>
+				</div>
+				
+				<div id="submit-field">
+					<input type="submit" name="google-search" id="google-search"  value="Google Search">
+					<input type="submit" name="feeling-lucky" id="feeling-lucky" value="I'm Feeling Lucky">
 				</div>
 			</form>
-		</center>
+			</center>
 		</div>
+
 	</body>
 
 </html>
