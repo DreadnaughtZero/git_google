@@ -1,0 +1,42 @@
+body{
+}
+
+#google-logo{
+	
+	margin: 150px auto auto auto;
+
+}
+
+#search-bar{
+	width: 40%;
+	height: 44px;
+	border: 1px solid lightgrey;
+	box-shadow:  0px 1px lightgray, 0px 1px .1em lightgray;
+}
+
+#search-bar:hover{
+	width: 40%;
+	height: 44px;
+	border: 1px solid lightgrey;
+	box-shadow:  0px 1px lightgray, 0px 4px .3em lightgray;
+}
+
+#search-terms{
+	float: left;
+	margin: 0px;
+	margin-left: 20px;
+	padding: 0px;
+	border: 0px solid white;
+	height: 44px;
+	width: 88%;
+}
+
+#voice-search{
+	float: right;
+	height:24px;
+	width: 24px;
+	margin: 10px;
+	background: url(voice_search.png) no-repeat -3px 0;
+	background-size: 24px 24px;
+	display: inline-block;
+}
